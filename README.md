@@ -47,10 +47,10 @@ python examples/demo.py
 
 ## Install
 
-Not on PyPI yet. Install a release from GitHub:
+Not on PyPI yet. Install it from GitHub (add `@<commit>` to the URL to pin one):
 
 ```bash
-pip install "tcpa-consent-ledger @ git+https://github.com/brandonoscar/tcpa-consent-ledger@v0.1.0"
+pip install "tcpa-consent-ledger @ git+https://github.com/brandonoscar/tcpa-consent-ledger"
 ```
 
 For the Postgres store, add the extra after the name: `tcpa-consent-ledger[postgres] @ git+...`.
